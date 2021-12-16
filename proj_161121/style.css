@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    width: 30%;
+    margin: 10px;
+    border: solid #000000 1px;
+    flex-direction: column;    
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.buttons {
+    justify-content: space-around!important;
+}
+
+.buttons input {
+    width: 30%;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+}

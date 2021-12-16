@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.container {
+    width: 40%;
+    padding: 10px;
+    border: solid 1px #000000;
+}
+
+.header {
+    padding: 10px;
+    border: solid 1px #000000;
+    text-align: center;
+}
+
+.figures {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.figure {
+    width: 50px;
+    margin: 10px;
+}

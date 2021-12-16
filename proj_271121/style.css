@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 15px 30px;
+    justify-content: center;
+    font-family: 'Yeseva One';
+    font-size: 48px;
+    background-color: #bdb76b;
+    border-radius: 10px;
+}
+
+div {
+    margin: 10px;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+div span:last-child {
+    font-size: 0.3em;
+}
+
+/* main div:not(:first-child):before {
+    content: ':';
+} */

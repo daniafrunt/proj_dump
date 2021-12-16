@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <div class="type">
+            <p>Укажите тип помещения</p>
+            <select>
+                <option value="0">Выберите тип помещения</option>
+                <option value="100">Частный дом</option>
+                <option value="200">Квартира</option>
+                <option value="500">Офис</option>
+            </select>
+        </div>
+        <div class="square">
+            <p>Укажите площадь помещения</p>
+            <input type="number">
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Рассчитать">
+            <input type="reset" value="Очистить">
+        </div>
+        <div class="result">
+            <p class="resultmsg"></p>
+            <p class="resultfin">Результат</p>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
